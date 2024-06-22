@@ -1,0 +1,42 @@
+@page "{id:Guid}"
+@model Crud.Pages.Employees.EditModel
+@{
+
+}
+
+
+<form method="post">
+    <h1>Edit Employee</h1>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="EditEmployeeViewModel.Id" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="EditEmployeeViewModel.Name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="EditEmployeeViewModel.Email">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Salary</label>
+        <input type="number" class="form-control" asp-for="EditEmployeeViewModel.Salary">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Date d'anniversaire</label>
+        <input type="date" class="form-control" asp-for="EditEmployeeViewModel.DateOfBirth">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Poste</label>
+        <select class="form-select" asp-for="EditEmployeeViewModel.PosteId" asp-items="Model.Postes">
+            <option value="">Select a Poste</option>
+        </select>
+    </div <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Departement</label>
+    <input type="text" class="form-control" asp-for="EditEmployeeViewModel.Department">
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>

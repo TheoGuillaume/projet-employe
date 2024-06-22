@@ -1,0 +1,83 @@
+@page
+@model Crud.Pages.Employees.ListModel
+@{
+    var error_message = ViewData["Error"]?.ToString();
+}
+
+<h1 class="mb-3">List of Employees</h1>
+
+@if (!string.IsNullOrWhiteSpace(error_message))
+{
+    <div class="alert alert-danger" role="alert">
+    @error_message
+</div>
+}
+
+<form method="get">
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <input class="form-control form-control" type="text" placeholder="Recherche"
+                aria-label=".form-control-lg example" name="searchTerm" value="@Model.SearchTerm">
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-secondary">Recherche</button>
+        </div>
+    </div>
+</form>
+
+@if (Model.Employees != null && Model.Employees.Any())
+{
+    <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Date anniversaire</th>
+             <th scope="col">Poste</th>
+            <th scope="col">Departement</th>
+            <th scope="col"> </th>
+            <th scope="col"> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model.Employees)
+            {
+                <tr>
+                    <td>@employee.Name</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.Salary</td>
+                    <td>@employee.DateOfBirth</td>
+                     <td>@employee.Poste?.NamePoste</td>
+                    <td>@employee.Department</td>
+                    <td>
+                        <a href="/Employees/Edit/@employee.Id" class="btn btn-dark">Edit</a>
+                    </td>
+                    <td>
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger" asp-page-handler="Delete"
+                                asp-route-id="@employee.Id">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Pagination links -->
+    <nav aria-label="Page navigation">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-page="./List" asp-route-currentPage="@i"
+                        asp-route-searchTerm="@Model.SearchTerm">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+else
+{
+    <p>No employees found!</p>
+}
