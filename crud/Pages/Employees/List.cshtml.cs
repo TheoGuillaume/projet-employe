@@ -1,5 +1,8 @@
 using System.Linq;
+using System.Reflection.Metadata;
 using Crud.Data;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Crud.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -13,12 +16,62 @@ namespace Crud.Pages.Employees
         public List<Employee> Employees { get; set; }
         // Parameters for pagination
         public int CurrentPage { get; set; } = 1;
-        public int PageSize { get; set; } = 2; // Number of items per page
+        public int PageSize { get; set; } = 5; // Number of items per page
         public int TotalPages { get; set; }
         public string SearchTerm { get; set; }
         public ListModel(RazorPageDbContext dbContext)
         {
             this.dbContext = dbContext;
+        }
+        public async Task<IActionResult> OnPostExportPdfAsync()
+        {
+            var employees = await dbContext.Employees.Include(e => e.Poste).ToListAsync();
+            var pdfBytes = GeneratePdf(employees);
+
+            return File(pdfBytes, "application/pdf", "Employees.pdf");
+        }
+        public byte[] GeneratePdf(List<Employee> products)
+        {
+            iTextSharp.text.Document doc = new iTextSharp.text.Document();
+            using (var memoryStream = new MemoryStream())
+            {
+                PdfWriter.GetInstance(doc, memoryStream).CloseStream = false;
+                doc.Open();
+
+                // Add a title
+                doc.Add(new Paragraph("Product List"));
+
+                // Add a table
+                PdfPTable table = new PdfPTable(8); // Assuming 3 columns: Id, Name, Price
+                table.AddCell("ID");
+                table.AddCell("Name");
+                table.AddCell("email");
+                table.AddCell("Solde");
+                table.AddCell("Salaire");
+                table.AddCell("Anniversaire");
+                table.AddCell("Poste");
+                table.AddCell("Departement");
+
+                // Add rows to the table
+                foreach (var product in products)
+                {
+                    table.AddCell(product.Id.ToString());
+                    table.AddCell(product.Name);
+                    table.AddCell(product.Email);
+                    table.AddCell(product.Solde.ToString());
+                    table.AddCell(product.Salary.ToString());
+                    table.AddCell(product.DateOfBirth.ToString());
+                    table.AddCell(product.Poste.NamePoste);
+                    table.AddCell(product.Department);
+                }
+
+                doc.Add(table);
+                doc.Close();
+
+                // Save the PDF to a file
+                //File.WriteAllBytes(filePath, memoryStream.ToArray());
+                return memoryStream.ToArray();
+            }
         }
         public void OnGet(int currentPage = 1, string searchTerm = null)
         {

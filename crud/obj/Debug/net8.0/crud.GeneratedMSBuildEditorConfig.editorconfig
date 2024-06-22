@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = crud
 build_property.RootNamespace = crud
-build_property.ProjectDir = /home/theo/Project/Personnel/DotNet/crud/
+build_property.ProjectDir = C:\Users\erics\Documents\GitHub\projet-employe\crud\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/theo/Project/Personnel/DotNet/crud
+build_property.MSBuildProjectDirectory = C:\Users\erics\Documents\GitHub\projet-employe\crud
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Employees/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0FkZC5jc2h0bWw=
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Employees/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Employees/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0VkaXQuY3NodG1s
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Employees/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRW1wbG95ZWVzL0xpc3QuY3NodG1s
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Employees/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Postes/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9zdGVzL0FkZC5jc2h0bWw=
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Postes/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdGVzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/theo/Project/Personnel/DotNet/crud/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-5yt6ut2eov
+[C:/Users/erics/Documents/GitHub/projet-employe/crud/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cc5x6s5so4

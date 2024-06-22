@@ -39,7 +39,8 @@ namespace Crud.Pages.Employees
                     Salary = AddEmployeeRequest.Salary,
                     DateOfBirth = AddEmployeeRequest.DateOfBirth,
                     PosteId = AddEmployeeRequest.PosteId.GetValueOrDefault(),
-                    Department = AddEmployeeRequest.Department
+                    Department = AddEmployeeRequest.Department,
+                    Solde = AddEmployeeRequest.Solde
                 };
 
                 dbContext.Employees.Add(employeeDomainModel);

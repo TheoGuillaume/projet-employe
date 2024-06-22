@@ -27,6 +27,9 @@
 
 @if (Model.Employees != null && Model.Employees.Any())
 {
+    <form method="post" asp-page-handler="ExportPdf">
+        <button type="submit">Export to PDF</button>
+    </form>
     <table class="table">
     <thead>
         <tr>
@@ -36,6 +39,7 @@
             <th scope="col">Date anniversaire</th>
              <th scope="col">Poste</th>
             <th scope="col">Departement</th>
+                <th scope="col">Solde</th>
             <th scope="col"> </th>
             <th scope="col"> </th>
         </tr>
@@ -50,6 +54,7 @@
                     <td>@employee.DateOfBirth</td>
                      <td>@employee.Poste?.NamePoste</td>
                     <td>@employee.Department</td>
+                    <td>@employee.Solde</td>
                     <td>
                         <a href="/Employees/Edit/@employee.Id" class="btn btn-dark">Edit</a>
                     </td>

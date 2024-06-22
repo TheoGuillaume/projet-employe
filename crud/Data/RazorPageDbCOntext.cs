@@ -11,9 +11,6 @@ namespace Crud.Data
 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Poste> Poste {get; set;}
-        public DbSet<Paye> Paye {get; set;}
-
-
-
+   
     }
 }

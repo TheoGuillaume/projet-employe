@@ -49,6 +49,9 @@ namespace crud.Migrations
                     b.Property<long>("Salary")
                         .HasColumnType("bigint");
 
+                    b.Property<float>("solde")
+                        .HasColumnType("real");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PosteId");

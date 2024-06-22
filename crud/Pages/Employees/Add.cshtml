@@ -36,6 +36,10 @@
         <input type="date" class="form-control" asp-for="AddEmployeeRequest.DateOfBirth">
     </div>
     <div class="mb-3">
+        
+        <input type="hidden" value="0" class="form-control" asp-for="AddEmployeeRequest.Solde">
+    </div>
+    <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Poste</label>
         <select class="form-select" asp-for="AddEmployeeRequest.PosteId" aria-label="Default select example">
             <option value="">Select a Poste</option>

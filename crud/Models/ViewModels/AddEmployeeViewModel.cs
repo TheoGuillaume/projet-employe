@@ -2,7 +2,8 @@ namespace Crud.Models.ViewModels
 {
     public class AddEmployeeViewModel
     {
-         public string Name { get; set; }
+        public float Solde { get; set; }
+        public string Name { get; set; }
 
         public string Email { get; set; }
 
