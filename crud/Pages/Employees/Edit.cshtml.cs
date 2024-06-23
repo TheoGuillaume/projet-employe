@@ -36,7 +36,7 @@ namespace Crud.Pages.Employees
                 //Convert Domain Model to View Model
                 EditEmployeeViewModel = new EditEmployeeViewModel()
                 {
-                    Id = employee.Id,
+                    Id = id,
                     Name = employee.Name,
                     Email = employee.Email,
                     DateOfBirth = employee.DateOfBirth,
@@ -63,6 +63,7 @@ namespace Crud.Pages.Employees
                     existingEmployee.Salary = EditEmployeeViewModel.Salary;
                     existingEmployee.Department = EditEmployeeViewModel.Department;
                     existingEmployee.PosteId = EditEmployeeViewModel.PosteId;
+                    existingEmployee.Solde = EditEmployeeViewModel.Solde;
                     dbContext.SaveChanges();
                      return RedirectToPage("/Employees/List"); 
                 }

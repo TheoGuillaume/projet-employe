@@ -28,7 +28,11 @@
 @if (Model.Employees != null && Model.Employees.Any())
 {
     <form method="post" asp-page-handler="ExportPdf">
-        <button type="submit">Export to PDF</button>
+        <button type="submit" class="btn-success">Export to PDF</button>
+    </form>
+    <form method="post" enctype="multipart/form-data" asp-page-handler="ImportCsv">
+        <input type="file" name="csvFile" />
+        <button type="submit" class="btn-dark">Import CSV</button>
     </form>
     <table class="table">
     <thead>

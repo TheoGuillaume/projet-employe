@@ -2,7 +2,7 @@ namespace Crud.Models.Domain
 {
     public class Employee 
     {
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
 
         public string Name { get; set; }
 

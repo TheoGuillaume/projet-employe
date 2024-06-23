@@ -17,7 +17,7 @@ namespace crud.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "8.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -49,7 +49,7 @@ namespace crud.Migrations
                     b.Property<long>("Salary")
                         .HasColumnType("bigint");
 
-                    b.Property<float>("solde")
+                    b.Property<float>("Solde")
                         .HasColumnType("real");
 
                     b.HasKey("Id");
@@ -74,6 +74,33 @@ namespace crud.Migrations
                     b.ToTable("Poste");
                 });
 
+            modelBuilder.Entity("crud.Models.Domain.Transaction", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("EmployeeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Motif")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("NombreJour")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("Transactions");
+                });
+
             modelBuilder.Entity("Crud.Models.Domain.Employee", b =>
                 {
                     b.HasOne("Crud.Models.Domain.Poste", "Poste")
@@ -83,6 +110,17 @@ namespace crud.Migrations
                         .IsRequired();
 
                     b.Navigation("Poste");
+                });
+
+            modelBuilder.Entity("crud.Models.Domain.Transaction", b =>
+                {
+                    b.HasOne("Crud.Models.Domain.Employee", "Employe")
+                        .WithMany()
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employe");
                 });
 
             modelBuilder.Entity("Crud.Models.Domain.Poste", b =>

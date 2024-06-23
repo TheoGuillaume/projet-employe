@@ -1,0 +1,84 @@
+﻿@page
+@model crud.Pages.transaction.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].Motif)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].NombreJour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].Employe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Transaction) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Motif)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreJour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employe.Id)
+            </td>
+                <td>
+                    @{
+                        string statusText = item.Status switch
+                        {
+                            "0" => "Nouveau",
+                            "1" => "Decliner",
+                            "2" => "Accepter",
+                            _ => "Inconnu"
+                        };
+                        if(item.Status=="0")
+                        {
+                            <span class="badge bg-secondary">@statusText</span>
+                        }
+                        if (item.Status == "1")
+                        {
+                            <span class="badge bg-danger">@statusText</span>
+                        }
+                        if (item.Status == "2")
+                        {
+                            <span class="badge bg-success">@statusText</span>
+                        }
+                    }
+
+                    
+                </td>
+            <td>
+                    @{
+                    if(item.Status=="0")
+                    {
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                            
+
+                        }
+                      
+                    }
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

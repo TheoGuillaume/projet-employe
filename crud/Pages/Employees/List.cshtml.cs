@@ -7,6 +7,8 @@ using Crud.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.Xml;
 
 namespace Crud.Pages.Employees
 {
@@ -23,12 +25,67 @@ namespace Crud.Pages.Employees
         {
             this.dbContext = dbContext;
         }
-        public async Task<IActionResult> OnPostExportPdfAsync()
+        public List<Employee> ImportEmployeesFromCsv(string filePath)
+        {
+            var employees = new List<Employee>();
+            using (var reader = new StreamReader(filePath))
+            {
+                var header = reader.ReadLine(); // Read header line
+
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line?.Split(',');
+
+
+
+                    // Assume AddEmployeeRequest is a class or model containing input data
+                    var employee = new Employee
+                    {
+                        Name = values[0],
+                        Email = values[1],
+                        Solde = float.TryParse(values[2], NumberStyles.Float, CultureInfo.InvariantCulture, out float solde) ? solde : 0,
+                        Salary = long.TryParse(values[3], out long salary) ? salary : 0,
+                        DateOfBirth = DateTime.TryParseExact(values[4], "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dob) ? dob : DateTime.MinValue,
+                        PosteId = Guid.TryParse(values[5], out Guid posteId) ? posteId : Guid.Empty,
+                        Department = values[6]
+                    };
+
+
+                    employees.Add(employee);
+                }
+                
+            }
+
+            return employees;
+        }
+            public async Task<IActionResult> OnPostExportPdfAsync()
         {
             var employees = await dbContext.Employees.Include(e => e.Poste).ToListAsync();
             var pdfBytes = GeneratePdf(employees);
 
             return File(pdfBytes, "application/pdf", "Employees.pdf");
+        }
+        public async Task<IActionResult> OnPostImportCsvAsync(IFormFile csvFile)
+        {
+            if (csvFile == null || csvFile.Length == 0)
+            {
+                return Content("CSV file not selected");
+            }
+
+            var filePath = Path.GetTempFileName();
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await csvFile.CopyToAsync(stream);
+            }
+            Console.WriteLine(csvFile);
+
+            var employees = ImportEmployeesFromCsv(filePath);
+            Console.WriteLine("Csv Count:"+employees.Count());
+            dbContext.Employees.AddRange(employees);
+            await dbContext.SaveChangesAsync();
+
+            return RedirectToPage("/Employees/List");
         }
         public byte[] GeneratePdf(List<Employee> products)
         {
@@ -42,7 +99,7 @@ namespace Crud.Pages.Employees
                 doc.Add(new Paragraph("Product List"));
 
                 // Add a table
-                PdfPTable table = new PdfPTable(8); // Assuming 3 columns: Id, Name, Price
+                PdfPTable table = new PdfPTable(8);
                 table.AddCell("ID");
                 table.AddCell("Name");
                 table.AddCell("email");

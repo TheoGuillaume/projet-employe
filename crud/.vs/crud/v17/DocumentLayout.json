@@ -7,40 +7,36 @@
       "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\employees\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\models\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:models\\domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\models\\domain\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:models\\domain\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\employees\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\employees\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\models\\viewmodels\\editemployeeviewmdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:models\\viewmodels\\editemployeeviewmdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\data\\razorpagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:data\\razorpagedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\transaction\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\transaction\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\models\\viewmodels\\addposteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:models\\viewmodels\\addposteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\transaction\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\transaction\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|c:\\users\\erics\\documents\\github\\projet-employe\\crud\\pages\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F5D27E-C049-4F23-B81D-751B7728CD9B}|crud.csproj|solutionrelative:pages\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -60,130 +60,112 @@
               "RelativeDocumentMoniker": "Pages\\Employees\\List.cshtml.cs",
               "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\List.cshtml.cs",
               "RelativeToolTip": "Pages\\Employees\\List.cshtml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAowCwAAAAxAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:34:40.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T13:14:04.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Add.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Add.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Employees\\Add.cshtml.cs",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Add.cshtml.cs",
-              "RelativeToolTip": "Pages\\Employees\\Add.cshtml.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAADAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:58:59.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Add.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Employees\\Add.cshtml",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Add.cshtml",
-              "RelativeToolTip": "Pages\\Employees\\Add.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T12:57:12.68Z",
+              "WhenOpened": "2024-06-23T12:45:44.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\List.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Employees\\List.cshtml",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\List.cshtml",
-              "RelativeToolTip": "Pages\\Employees\\List.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAB8AAAALAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\transaction\\Details.cshtml",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Details.cshtml",
+              "RelativeToolTip": "Pages\\transaction\\Details.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T12:28:56.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Poste.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\Domain\\Poste.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Poste.cs",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\Domain\\Poste.cs",
-              "RelativeToolTip": "Models\\Domain\\Poste.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:47:17.939Z",
+              "WhenOpened": "2024-06-23T12:18:37.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\Domain\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Employee.cs",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\Domain\\Employee.cs",
-              "RelativeToolTip": "Models\\Domain\\Employee.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T13:01:02.432Z",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\List.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Employees\\List.cshtml",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\List.cshtml",
+              "RelativeToolTip": "Pages\\Employees\\List.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T12:13:57.726Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditEmployeeViewMdel.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\ViewModels\\EditEmployeeViewMdel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\EditEmployeeViewMdel.cs",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\ViewModels\\EditEmployeeViewMdel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\EditEmployeeViewMdel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:02:57.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddPosteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\ViewModels\\AddPosteViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\AddPosteViewModel.cs",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Models\\ViewModels\\AddPosteViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\AddPosteViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:41:29.306Z",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Employees\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T12:02:11.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RazorPageDbCOntext.cs",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Data\\RazorPageDbCOntext.cs",
-              "RelativeDocumentMoniker": "Data\\RazorPageDbCOntext.cs",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Data\\RazorPageDbCOntext.cs",
-              "RelativeToolTip": "Data\\RazorPageDbCOntext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\transaction\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\transaction\\Create.cshtml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwDcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:45:31.157Z",
+              "WhenOpened": "2024-06-23T06:26:29.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-22T10:31:00.43Z",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\transaction\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\transaction\\Edit.cshtml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwDQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T06:17:07.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\transaction\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\transaction\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAwwCUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T06:06:06.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\transaction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\erics\\Documents\\GitHub\\projet-employe\\crud\\Pages\\transaction\\Index.cshtml",
+              "RelativeToolTip": "Pages\\transaction\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAcwE0AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T19:42:08.646Z",
               "EditorCaption": ""
             }
           ]
